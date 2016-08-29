@@ -1,6 +1,6 @@
 {
   "name": "default-css-class-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A webpack loader to export default CSS class name while using CSS-Modules",
   "main": "index.js",
   "scripts": {
