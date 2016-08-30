@@ -33,7 +33,7 @@ BEM style like CSS naming conventions with CSS-Modules made easy.
 
 ```javascript
 import React from 'react';
-const button = require('./button.scss');
+const button = require('./button.css');
 
 const PrimaryButton = (
   <button className={`${button} ${button._primary}`}>Hi</button>
@@ -42,7 +42,7 @@ const PrimaryButton = (
 
 ```javascript
 import React from 'react';
-const searchForm = require('./searchForm.scss');
+const searchForm = require('./searchForm.css');
 
 const SearchForm = (
   <form className={`${searchForm}`}>
